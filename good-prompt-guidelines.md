@@ -5,7 +5,7 @@
 
 2. **Be concise:** Avoid lengthy prompts that may cause ChatGPT to lose track of the main point of your question.
 
-3.** Be focused:** Stick to a single topic or question per prompt to help ChatGPT provide a more targeted response.
+3. **Be focused:** Stick to a single topic or question per prompt to help ChatGPT provide a more targeted response.
 
 4. **Provide context:** Give ChatGPT enough background information to help it understand the context of your question. This will help ensure that its response is accurate and relevant.
 
