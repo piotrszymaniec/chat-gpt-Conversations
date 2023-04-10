@@ -66,7 +66,151 @@ const books = [
   }
 ];
 ```
+### Q:  add 40 more object records to js array and format it as code block
+`I've pasted the code as is, but for readable reasons I've added formating here `
 
+```const books = [
+  {
+    title: "The Hunger Games",
+    author: "Suzanne Collins",
+    published: new Date("2008-09-14")
+  },
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    published: new Date("1960-07-11")
+  },
+  {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    published: new Date("1925-04-10")
+  },
+  {
+    title: "The Fault in Our Stars",
+    author: "John Green",
+    published: new Date("2012-01-10")
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    published: new Date("1949-06-08")
+  }
+];
+```
+
+## A:
+```js
+const books = [
+  {
+    title: "The Hunger Games",
+    author: "Suzanne Collins",
+    published: new Date("2008-09-14")
+  },
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    published: new Date("1960-07-11")
+  },
+  {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    published: new Date("1925-04-10")
+  },
+  {
+    title: "The Fault in Our Stars",
+    author: "John Green",
+    published: new Date("2012-01-10")
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    published: new Date("1949-06-08")
+  },
+  {
+    title: "The Catcher in the Rye",
+    author: "J.D. Salinger",
+    published: new Date("1951-07-16")
+  },
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    published: new Date("1813-01-28")
+  },
+  {
+    title: "Animal Farm",
+    author: "George Orwell",
+    published: new Date("1945-08-17")
+  },
+  {
+    title: "The Lord of the Rings",
+    author: "J.R.R. Tolkien",
+    published: new Date("1954-07-29")
+  },
+  {
+    title: "The Hobbit",
+    author: "J.R.R. Tolkien",
+    published: new Date("1937-09-21")
+  },
+  {
+    title: "One Hundred Years of Solitude",
+    author: "Gabriel Garcia Marquez",
+    published: new Date("1967-06-05")
+  },
+  {
+    title: "The Catch-22",
+    author: "Joseph Heller",
+    published: new Date("1961-11-10")
+  },
+  {
+    title: "The Hitchhiker's Guide to the Galaxy",
+    author: "Douglas Adams",
+    published: new Date("1979-10-12")
+  },
+  {
+    title: "The Picture of Dorian Gray",
+    author: "Oscar Wilde",
+    published: new Date("1890-07-01")
+  },
+  {
+    title: "The Adventures of Huckleberry Finn",
+    author: "Mark Twain",
+    published: new Date("1884-12-10")
+  },
+  {
+    title: "The Adventures of Tom Sawyer",
+    author: "Mark Twain",
+    published: new Date("1876-12-01")
+  },
+  {
+    title: "The Old Man and the Sea",
+    author: "Ernest Hemingway",
+    published: new Date("1952-09-01")
+  },
+  {
+    title: "The Road",
+    author: "Cormac McCarthy",
+    published: new Date("2006-09-26")
+  },
+  {
+    title: "Brave New World",
+    author: "Aldous Huxley",
+    published: new Date("1932-01-01")
+  },
+  {
+    title: "The Sun Also Rises",
+    author: "Ernest Hemingway",
+    published: new Date("1926-10-22")
+  },
+  {
+    title: "The Sound and the Fury",
+    author: "William Faulkner",
+    published: new Date("1929-10-07")
+  },
+  {
+    title: "The Grapes of Wrath",
+    author
+
+```
 ## I wanted to get more data, and let it skip new line formatting so I asked
 ### Q: with task: Task: Create a program that takes an array of objects representing books, and filters the array to only include books that were published after 2010. Then, sort the remaining books by their publication date, with the most recent book first.
 
@@ -102,4 +246,6 @@ const books = [
   {title: "The Night Country", author: "Melissa Albert", published: new Date("2020-01-07")}
 ]
 ```
+---
 
+For this task additionaly i would use all record given records, and merge them checking if there are no duplicates 
